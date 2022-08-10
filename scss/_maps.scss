@@ -1,0 +1,9 @@
+
+/* MAP - GET */
+
+$estiloContenedores: ( colorTranslucido: rgba(171, 236, 251,0.4),tamFuente: 1rem );
+
+.centrado {
+    background: map-get($map: $estiloContenedores, $key:colorTranslucido );
+    font-size: map-get($map: $estiloContenedores, $key: tamFuente);
+}

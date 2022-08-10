@@ -1,0 +1,41 @@
+
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:$color-verdefondo;
+    z-index: 2;
+    height: 10rem;} 
+   
+    h1 {color:$color-letras; 
+        font-family: 'Euphoria Script', cursive; 
+        text-align: center;
+        font-size: 70px; 
+        font-weight: bold; }
+   
+    .ancla {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:$color-letras;
+    }
+
+    .facebookIcono{
+        width: 40px;
+    }
+    
+    .instagramIcono{
+        width: 40px;
+    }
+    
+/*li {list-style-type: none;
+}
+*/
+
+/* IMAGENES*/
+
+.encabezado {
+    width: 150px;
+}
+

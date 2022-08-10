@@ -1,0 +1,13 @@
+/* EXTEND */
+
+.centrado {
+    display: flex;
+    border: 1px solid;
+}
+
+.contenedorPreguntas {
+    @extend .centrado;
+    text-align: center;
+   flex-direction: column;
+   margin:15px; 
+}

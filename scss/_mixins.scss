@@ -1,0 +1,15 @@
+/* MIXIN*/
+
+@mixin parrafo ($family,$alineacion,$size){
+    font-family: $family;
+    text-align: $alineacion;
+    font-size: $size;
+}  
+
+.estiloParrafo {
+    @include parrafo('Euphoria Script',center,20px)
+}
+
+.estiloParrafoPreguntas {
+    @include parrafo('Euphoria Script',center ,25px )
+}
