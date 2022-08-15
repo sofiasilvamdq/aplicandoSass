@@ -3,7 +3,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #acecfb;
+  background-color: #a9effe;
   z-index: 2;
   height: 10rem; }
 
@@ -33,20 +33,109 @@ h1 {
 .encabezado {
   width: 150px; }
 
+form {
+  width: 600px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  margin-bottom: 50px; }
+
+h3 {
+  color: #F183BB;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold; }
+
+h4 {
+  color: #F183BB;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold; }
+
+legend {
+  color: #F183BB;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: monospace;
+  border: none; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 500 px;
+  overflow: scroll; }
+
+.botonContacto {
+  background-color: #F183BB;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 8px; }
+
+.botonContacto:hover {
+  cursor: pointer;
+  background-color: #ff1489; }
+
+@media (max-width: 480px) {
+  form {
+    width: 100%; } }
+
+/* DATOS DE CONTACTO NUESTROS */
+.contenedorGrandeContacto {
+  padding: 130px 30px;
+  border: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.datosDeContacto {
+  width: 600px;
+  background: linear-gradient(to top, #f3c3df, #fff3fa);
+  background: rgba(171, 236, 251, 0.4);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 7px; }
+
+.container_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px; }
+
 .facebookIconoContacto {
-  width: 20px; }
+  width: 50px; }
 
 .instagramIconoContacto {
-  width: 20px; }
+  width: 50px; }
 
 body {
   color: #F183BB;
   background-color: #BCE4D3;
-  background-image: url(../Imag/imagenfondochocoagua.png);
+  background-image: url(../Imag/imagenfondochocoaguaNUEVA4.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: 100%; }
+  background-size: 100vw 100vh; }
 
 h2 {
   color: #F183BB;
@@ -55,6 +144,9 @@ h2 {
   font-weight: bold; }
 
 /* BOX DE PRODUCTOS*/
+.contenedorProductos {
+  margin-top: 120px; }
+
 .centrado, .contenedorPreguntas {
   /*background: rgba(171, 236, 251,0.4) ;
  display:flex;*/
@@ -69,6 +161,80 @@ h2 {
    text-align: center;
    flex-direction: column;
    margin:15px; */ }
+
+.carrusel {
+  margin-top: 120px;
+  margin-bottom: 50px; }
+
+.contenedorGrandePreguntas {
+  margin-top: 130px;
+  margin-bottom: 70px; }
+
+/*#footer { color: #b545e9;
+}
+
+
+a { 
+    color: #b545e9; 
+    font-size: 18px;
+}
+
+*/
+h5 {
+  color: #7a7a7a;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 500; }
+
+h6 {
+  color: #343434;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center; }
+
+footer {
+  width: 100%;
+  padding: 10px 0px;
+  background-image: url(../Imag/footer.jpg);
+  background-size: cover; }
+
+.box_footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+
+.logoImagenFooter {
+  width: 75px; }
+
+.logo_footer {
+  display: flex;
+  align-items: flex-end; }
+
+.parrafoFooter {
+  max-width: 250px;
+  margin-top: 50px;
+  font-weight: 500;
+  color: #7a7a7a;
+  text-align: center;
+  font-size: 0.8rem; }
+
+.etiquetasAfooter {
+  color: #7a7a7a;
+  text-align: center;
+  font-weight: 500;
+  text-align: center;
+  font-size: 0.8rem; }
+
+.box-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px; }
+
+.box-copyright p {
+  margin-top: 20px;
+  color: #7a7a7a; }
 
 /* MAP - GET */
 .centrado, .contenedorPreguntas {
@@ -95,6 +261,22 @@ h2 {
   font-family: "Euphoria Script";
   text-align: center;
   font-size: 25px; }
+
+/* QUIENES SOMOS */
+.contenedorHistoria {
+  width: 1000px;
+  background: linear-gradient(to top, #f3c3df, #fff3fa);
+  background: rgba(171, 236, 251, 0.4);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 7px;
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: 50px; }
+
+.contenedorGrandeHistoria {
+  margin-top: 130px;
+  margin-bottom: 70px; }
 
 * {
   padding: 0;

@@ -1,10 +1,10 @@
 body {color:$color-letras;
     background-color:#BCE4D3 ;
-    background-image: url(../Imag/imagenfondochocoagua.png);
+    background-image: url(../Imag/imagenfondochocoaguaNUEVA4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 100vw 100vh;
 }
 
 
@@ -15,6 +15,10 @@ h2 {color:$color-letras;
 }
 
 /* BOX DE PRODUCTOS*/
+.contenedorProductos {
+    margin-top: 120px;
+}
+
 
 .centrado {
     /*background: rgba(171, 236, 251,0.4) ;
@@ -32,4 +36,14 @@ align-self: center;
    text-align: center;
    flex-direction: column;
    margin:15px; */
+}
+
+.carrusel {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.contenedorGrandePreguntas {
+    margin-top: 130px;
+    margin-bottom: 70px;
 }
