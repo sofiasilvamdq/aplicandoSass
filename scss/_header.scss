@@ -1,42 +1,105 @@
 
 
+
+
+/*@media (min-width:300px) {
+    h1 { display:none
+      }
+
+    header {
+        width: 100%;
+        
+    } 
+    
+    
+}*/
+
+
 header {
-    position: sticky;
-    top: 0;
     width: 100%;
-    background-color:#a9effe;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
     z-index: 2;
-    height: 10rem;
+    background: url("../imag/fondochorreado2.png")no-repeat;
+    background-size: cover;
+   
 }
+
+
+.container__header {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 70px; 
+    align-content: center;
    
-    h1 {color:$color-letras; 
-        font-family: 'Euphoria Script', cursive; 
-        text-align: center;
-        font-size: 70px; 
-        font-weight: bold; }
-   
-    .ancla {
-    font-size: 1rem;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Euphoria Script', cursive; 
+    text-align: center;
+    font-size: 60px; 
     font-weight: bold;
-    text-transform: uppercase;
-    color:$color-letras;
-    }
-
-    .facebookIcono{
-        width: 40px;
-    }
-    
-    .instagramIcono{
-        width: 40px;
-    }
-    
-/*li {list-style-type: none;
+    color:#F183BB
 }
-*/
 
-/* IMAGENES*/
+.imgLogo{
+    width: 120px; 
+    
+}
 
-.encabezado {
-    width: 150px;
+.facebookIcono {
+    width: 30px;
+}
+
+.instagramIcono {
+    width: 30px;
+}
+
+.container_nav {
+    position: relative;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+    
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+    margin: 0px 15px;
+    list-style: none;
+   
+}
+nav ul li a{
+    color:palevioletred;
+    font-size: 15px;
+    text-decoration:none; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.select {
+    background: palevioletred;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
 }
 

@@ -1,37 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap");
+/*@media (min-width:300px) {
+    h1 { display:none
+      }
+
+    header {
+        width: 100%;
+        
+    } 
+    
+    
+}*/
 header {
-  position: sticky;
-  top: 0;
   width: 100%;
-  background-color: #a9effe;
+  height: 250px;
+  position: fixed;
+  top: 0;
+  right: 0;
   z-index: 2;
-  height: 10rem; }
+  background: url("../imag/fondochorreado2.png") no-repeat;
+  background-size: cover; }
+
+.container__header {
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 70px;
+  align-content: center; }
+
+.logo {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center; }
 
 h1 {
-  color: #F183BB;
   font-family: 'Euphoria Script', cursive;
   text-align: center;
-  font-size: 70px;
-  font-weight: bold; }
-
-.ancla {
-  font-size: 1rem;
+  font-size: 60px;
   font-weight: bold;
-  text-transform: uppercase;
   color: #F183BB; }
 
+.imgLogo {
+  width: 120px; }
+
 .facebookIcono {
-  width: 40px; }
+  width: 30px; }
 
 .instagramIcono {
-  width: 40px; }
+  width: 30px; }
 
-/*li {list-style-type: none;
-}
-*/
-/* IMAGENES*/
-.encabezado {
-  width: 150px; }
+.container_nav {
+  position: relative;
+  height: 100%; }
+
+nav {
+  height: 100%; }
+
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+nav ul li {
+  margin: 0px 15px;
+  list-style: none; }
+
+nav ul li a {
+  color: palevioletred;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.select {
+  background: palevioletred;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px; }
 
 form {
   width: 600px;
@@ -101,7 +147,7 @@ textarea {
 
 /* DATOS DE CONTACTO NUESTROS */
 .contenedorGrandeContacto {
-  padding: 130px 30px;
+  padding: 0px 30px;
   border: 10px;
   display: flex;
   justify-content: space-between; }
@@ -128,14 +174,17 @@ textarea {
 .instagramIconoContacto {
   width: 50px; }
 
+/*body {color:$color-letras;
+    background-color:#BCE4D3 ;
+    background-image: url(../Imag/imagenfondochocoaguaNUEVA4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}*/
 body {
-  color: #F183BB;
   background-color: #BCE4D3;
-  background-image: url(../Imag/imagenfondochocoaguaNUEVA4.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: 100vw 100vh; }
+  background-image: url(../Imag/imagenfondochocoaguaNUEVA4.webp); }
 
 h2 {
   color: #F183BB;
@@ -169,6 +218,9 @@ h2 {
 .contenedorGrandePreguntas {
   margin-top: 130px;
   margin-bottom: 70px; }
+
+main {
+  margin-top: 250px; }
 
 /*#footer { color: #b545e9;
 }
@@ -213,7 +265,7 @@ footer {
 
 .parrafoFooter {
   max-width: 250px;
-  margin-top: 50px;
+  margin-top: 10px;
   font-weight: 500;
   color: #7a7a7a;
   text-align: center;
@@ -223,7 +275,6 @@ footer {
   color: #7a7a7a;
   text-align: center;
   font-weight: 500;
-  text-align: center;
   font-size: 0.8rem; }
 
 .box-copyright {
