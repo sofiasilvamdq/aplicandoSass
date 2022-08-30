@@ -17,7 +17,7 @@ header {
   top: 0;
   right: 0;
   z-index: 2;
-  background: url("../imag/fondochorreado2.png") no-repeat;
+  background: url(../Imag/fondochorreado2-removebg-preview.png) no-repeat;
   background-size: cover; }
 
 .container__header {
@@ -184,7 +184,7 @@ textarea {
 }*/
 body {
   background-color: #BCE4D3;
-  background-image: url(../Imag/imagenfondochocoaguaNUEVA4.webp); }
+  background-image: url(../Imag/imagenfondochocolate.jpg); }
 
 h2 {
   color: #F183BB;
