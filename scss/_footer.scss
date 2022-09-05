@@ -1,17 +1,4 @@
-
-
-
-/*#footer { color: #b545e9;
-}
-
-
-a { 
-    color: #b545e9; 
-    font-size: 18px;
-}
-
-*/
-
+/*FOOTER*/
 
 h5 {
     color: #7a7a7a;
@@ -31,10 +18,9 @@ h6 {
 
 footer {
     width: 100%;
-    padding: 10px 0px; 
+    padding: 10px 0px;
     background-image: url(../Imag/footer.jpg);
     background-size: cover;
-
 }
 
 .box_footer {
@@ -45,12 +31,12 @@ footer {
 
 
 .logoImagenFooter {
-    width: 75px;
+    width: 100px;
 }
 
 .logo_footer {
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
 }
 
 .parrafoFooter {

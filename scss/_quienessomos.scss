@@ -1,10 +1,8 @@
 
 /* QUIENES SOMOS */
 
-
-
 .contenedorHistoria {
-    width: 1000px;
+    width: 80%;
     background: linear-gradient(to top,rgb(243, 195, 223),rgb(255, 243, 250));
     background: rgba(171, 236, 251,0.4)  ;
     padding: 10px 20px;
@@ -21,4 +19,24 @@
     margin-bottom: 70px; 
 }
 
+p{
+    font-family: 'Euphoria Script', cursive; 
+    text-align: center;
+    font-size: 20px; 
+    font-weight: bold;
+    color:rgb(29, 28, 28)
+} 
 
+.listaObjetivos ul li {
+    font-family: 'Euphoria Script', cursive; 
+    font-size: 20px; 
+    font-weight: bold;
+    color:rgb(29, 28, 28)
+}
+
+.valores ol li {
+    font-family: 'Euphoria Script', cursive; 
+    font-size: 20px; 
+    font-weight: bold;
+    color:rgb(29, 28, 28)
+}
