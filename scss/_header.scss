@@ -178,14 +178,14 @@ nav ul li a:hover{
          width: 100%;
     }
       
-    .mapa {
-      display: none; 
-    }
-
     .datosMedia {
       display: flex;
       justify-content: center;
       margin: auto;
+    }
+
+    .mapaMovil {
+      display: none; 
     }
 
   }
@@ -202,6 +202,8 @@ nav ul li a:hover{
    .container_footer{
     display: flex;
     justify-content: space-between;
-   }  
+   } 
+   
+   
   }
   

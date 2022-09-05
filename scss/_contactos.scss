@@ -89,7 +89,7 @@ textarea {
     padding:  0px 30px;
     border: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
    
 }
@@ -110,4 +110,17 @@ textarea {
 
 .instagramIconoContacto{
     width: 50px;
+}
+
+.mapa {
+    background:rgba(0,0,0, 0.5);
+    margin: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    width: 45%;
 }

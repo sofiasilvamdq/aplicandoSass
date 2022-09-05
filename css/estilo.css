@@ -136,12 +136,12 @@ nav ul li a:hover {
     justify-content: center; }
   .contenedorHistoria {
     width: 100%; }
-  .mapa {
-    display: none; }
   .datosMedia {
     display: flex;
     justify-content: center;
-    margin: auto; } }
+    margin: auto; }
+  .mapaMovil {
+    display: none; } }
 
 @media (min-width: 851px) {
   .respmenu {
@@ -225,7 +225,7 @@ textarea {
   padding: 0px 30px;
   border: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%; }
 
 .datosDeContacto {
@@ -241,6 +241,18 @@ textarea {
 
 .instagramIconoContacto {
   width: 50px; }
+
+.mapa {
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  width: 45%; }
 
 body {
   background-color: #BCE4D3;
