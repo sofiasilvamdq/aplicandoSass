@@ -137,7 +137,11 @@ nav ul li a:hover {
   .contenedorHistoria {
     width: 100%; }
   .mapa {
-    display: none; } }
+    display: none; }
+  .datosMedia {
+    display: flex;
+    justify-content: center;
+    margin: auto; } }
 
 @media (min-width: 851px) {
   .respmenu {
